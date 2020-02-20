@@ -8,6 +8,13 @@
 </head>
 <body>
     <h1>Nothing to see here!!</h1>
-    <button onclick="incrementString('Youclicked')" >Click me</button>
+    <input type="text" name="text" id="text" placeholder="Test your Algorithm and check the console" width="80px">
+    <button onclick="myFunction()" >Click me</button>
 </body>
+<script>
+    function myFunction() {
+        let str = document.getElementById("text").value;
+        console.log(incrementString(str))
+    }
+</script>
 </html>
